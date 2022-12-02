@@ -10,7 +10,7 @@ let a=get_data()
 console.log(a)*/
 
 
-function add(a,b){
+/*function add(a,b){
     console.log(a+b)
     console.log(a*b)
     return (a/b)
@@ -18,4 +18,23 @@ function add(a,b){
 
 //add(20,5)
 let r=add(20,5)
+console.log(r)*/
+
+
+
+
+
+
+function add(a,b){
+    console.log(a+b)
+    console.log(a*b)
+    console.log(a%b)
+    console.log(a/b)
+    return (a-b)
+
+
+}
+let r=add(5,99)
 console.log(r)
+let r2=add(99,26)
+console.log(r2)
